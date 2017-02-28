@@ -8,6 +8,6 @@
 
   debconf:
     name: debconf
-    question: '{{ item.question }}'
+    question: debconf/{{ item.question }}
     value: '{{ item.value }}'
     vtype: select
